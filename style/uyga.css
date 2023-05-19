@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Old Standard TT';
+}
+body{
+    background-color: black;
+    color: white;
+}
+ul{
+    display: grid;
+ align-items: center;
+ justify-content: center;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 10px;
+ list-style: none;
+}
+ul img {
+    width: 300px;
+    min-height: 400px;
+
+}
